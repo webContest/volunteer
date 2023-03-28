@@ -1,0 +1,170 @@
+/* :default Style setting */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open sans', sans-serif;
+}
+/* Body Style Setting */
+body{
+  height: 100vh;
+  background-color: #fff;
+   /* background-image: url('./img/background.JPG');    */
+  background-size: cover;
+  background-position: top;
+}
+/* Header style setting */
+header{
+  position: relative;
+  padding:0 2rem;
+ 
+}
+/*Main navbar Styling setting*/
+.navbar{
+  width: 100%;
+  height: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/*Main navbar Logo Styling setting*/
+.navbar .logo a{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#logo-img{
+  width: 4rem;
+  height: 4rem;
+  border-radius: 2rem;
+}
+/*Main navbar Links setting*/
+.navbar .links{
+  display: flex;
+  gap : 2rem;
+}
+/*Main navbar links items Styling setting*/
+li{
+  list-style: none;
+}
+.navbar .toggle_btn{
+  color: #e12b2b;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+  }
+  /* Getting Start button in the menu Style setting*/
+  .action_btn{
+    background-color: rgb(134, 169, 152);
+    color :#1d0c0c;
+    padding: 0.5rem 2rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size:0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale(0.2 ease) 
+    }
+    /* Getting Start button in the menu Style setting hover on*/
+    .action_btn:hover{
+      transform: scale(1.05);
+        color:rgb(184, 127, 34);
+    }
+    .action_btn:active{
+      transform: scale(0.95);
+      }
+/*Main navbar links items hiber link Styling setting*/
+a{
+  text-decoration: none;
+  color: #1d0c0c;
+  font-size: 1rem;
+}
+/* Drop Down Menu  one the screen size reduced*/
+
+.dropdown_menu{
+  display: none; 
+  position: absolute; 
+  right: 2rem; 
+  top: 60px; 
+  height: 0;
+  width: 15rem;
+  background: rgba(101, 18, 52, 0.1);
+  filter: blur();  
+  border-radius: 15px; 
+   overflow: hidden;  
+  transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  /*used to toggle opening the drop down menu according to screen size*/ 
+  .dropdown_menu.open{
+    height: 240px;
+    }
+  .dropdown_menu i{
+    padding: 0.7rem;
+    display: flex;
+    gap : 2rem;
+    justify-content: center;
+  align-items: center;
+  }
+/*Getting start buttong when the drop down menu activated in small screen*/
+  .dropdown_menu .action_btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    }
+
+/*Main navbar links items hiber link  HoverStyling setting*/
+a:hover{
+  color: orange;
+}
+    /* Hero  Main Section start with Welcome*/
+ section#hero{
+  height:calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #1d0c0c;
+  
+ }
+ #hero h1{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  
+ }
+      /*RESPONSIVE*/
+@media(max-width:992px){
+  .navbar .links,
+  .navbar .action_btn{
+  display: none;
+  }
+  .navbar .toggle_btn {
+  display: block
+  }
+  .dropdown_menu{
+   display: block;
+
+  }
+  section#hero{
+    display:flex
+  }
+
+  
+  }
+  @media(max-width:576px){
+  .dropdown_menu{
+    left: 2rem;
+    width :unset;
+  }
+  .container-swiper{
+    display: none;
+  }
+  section#hero{
+    display:none
+  }
+
+  }
+  
