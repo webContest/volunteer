@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="./css/Style.css" />
+    <title>Volunteering </title>
+  </head>
+<body>
+    <!-- Header Section Start here -->
+    <header>
+      <div class="navbar">
+      <div class="logo">
+          <a href="index.html">
+            <img id="logo-img" src="./img/greenspeak-high-resolution-color-logo.jpeg" alt="logo">
+            Volunteer Opportunities</a>
+        </div>
+        <ul class="links">
+          <li><a href="home.html" class="home" target="_parent">Home</a></li>
+          <li><a href="events.html" class="events"target="_parent">Events</a></li>
+          <li><a href="getinvloved.html" class="getinvloved" target="_parent">Get Invloved</a></li>
+          <li><a href="aboutus.html" target="_parent">About Us</a></li>
+          <li><a href="Contactus.html" class="contact" target="_parent">Contact Us</a></li>
+        </ul>
+           <a href="#" class="action_btn">Get Started</a>
+           <div class="toggle_btn">
+             <i class="fa-solid fa-bars"></i>  
+            </div>
+       </div>  
+       <div class="dropdown_menu">
+          <i><a href="home.html" class="home" target="_parent">Home</a></i>
+          <i><a href="events.html" class="events"target="_parent">Events</a></i>
+          <i><a href="getinvloved.html" class="getinvloved" target="_parent">Get Invloved</a></i>
+          <i><a href="aboutus.html" target="_parent">About Us</a></i>
+          <i><a href="Contactus.html" class="contact" target="_parent">Contact Us</a></i>
+          <i><a href="#" class="action_btn">Get Started</a></i>
+       </div>  <!--  nav bar ends Here -->
+    </header>
+    <main>   <!--grid of links and logos for nonprofits -->     
+        <section class="wesupport" id="support">
+            <h2 class="section__title section__title--support">Who We Support</h2>
+        <p class="section__subtitle section__subtitle--work">Local Nonprofit Parnters </p>
+        
+        <div class="nonprofit">
+                <!-- nonprofit 01 -->
+                <a href="#" class="nonprofit_item">
+                <img src="nonprofit link" alt="" height="500" width="425" class="nonprofit_logo">
+            </a>
+        
+        
+                <!-- nonprofit 02 -->
+                <a href="#" class="nonprofit_item">
+                <img src="nonprofit link" alt="" height="500" width="425" class="nonprofit_logo">
+            </a>
+
+        
+                <!-- nonprofit 03 -->
+                <a href="#" class="nonprofit_item">
+                <img src="nonprofit link" alt="" height="500" width="425" class="nonprofit_logo">
+            </a>
+
+            
+                <!-- nonprofit 04 -->
+                <a href="#" class="nonprofit_item">
+                <img src="nonprofit link" alt="" height="500" width="425" class="nonprofit_logo">
+            </a>    
+            
+            
+                <!-- nonprofit 05 -->
+                <a href="#" class="nonprofit_item">
+                <img src="nonprofit link" alt="" height="500" width="425" class="nonprofit_logo">
+            </a>
+        
+        
+                <!-- nonprofit 06 -->
+                <a href="#" class="nonprofit_item">
+                <img src="nonprofit link" alt="" height="500" width="425" class="nonprofit_logo">
+            </a>
+
+            
+                <!-- nonprofit 07 -->
+                <a href="#" class="nonprofit_item">
+                <img src="nonprofit link" alt="" height="500" width="425" class="nonprofit_logo">
+            </a>
+
+        
+                <!-- nonprofit 08 -->
+                <a href="#" class="nonprofit_item">
+                <img src="nonprofit link" alt="" height="500" width="425" class="nonprofit_logo">
+            </a>    
+            
+        
+                <!-- nonprofit 09 -->
+                <a href="#" class="nonprofit_item">
+                <img src="nonprofit link" alt="" height="500" width="425" class="nonprofit_logo">
+            </a>
+        
+        
+                <!-- nonprofit 10 -->
+                <a href="#" class="nonprofit_item">
+                <img src="nonprofit link" alt="" height="500" width="425" class="nonprofit_logo">
+            </a>
+        </div>
+        </section>
+    </main>
+    <footer>
+        <div class="social">
+            
+        </div>
+    </footer>
+        <script>
+                const toggleBtn = document.querySelector('.toggle_btn')
+                const toggleBtnIcon= document.querySelector('.toggle_btn i')
+                const dropDownMenu = document.querySelector('.dropdown_menu')
+                toggleBtn.onclick = function(){
+                dropDownMenu.classList.toggle('open')
+                const isOpen = dropDownMenu.classList.contains('open')
+                toggleBtnIcon.classList = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+                }
+                
+        </script>
+    </body>
+ </html>
+          

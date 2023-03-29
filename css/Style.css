@@ -167,4 +167,55 @@ a:hover{
   }
 
   }
-  
+
+ /*Who We Support Sub Page */
+
+    /*page style format settings*/
+
+    :root{
+    --clr-light: #fff;
+    --clr-dark: #303030;
+    --clr-accent: #c9efc7;
+    }
+    
+.wesupport {
+  background-color: var(--clr-dark);
+	color: var(--clr-light);
+	text-align: center;
+}
+.section__subtitle--support {
+	color: var(--clr-accent);
+	font-weight: var(--fw-bold);
+	margin-bottom: 2em;
+}
+
+.nonprofit {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 5px;
+
+}
+
+.nonprofit_item {
+  background: var(--clr-accent);
+  overflow: hidden;
+}
+
+.nonprofit_logo {
+  transition: 
+      transform 750ms cubic-bezier(.5, 0, .5, 1),
+      opacity 250ms linear;
+}
+
+.nonprofit_item:focus {
+  position: relative;
+  z-index: 2;
+}
+
+.nonprofit_logo:hover,
+.nonprofit_item:focus .portfolio__img {
+    transform: scale(1.2);
+    opacity: .5;
+}
+
