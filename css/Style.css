@@ -182,6 +182,9 @@ a:hover{
   background-color: var(--clr-dark);
 	color: var(--clr-light);
 	text-align: center;
+  margin-top: 50px;
+  padding-top: 25px;
+
 }
 .section__subtitle--support {
 	color: var(--clr-accent);
@@ -193,8 +196,8 @@ a:hover{
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  padding: 5px;
-
+  padding: 25px;
+  
 }
 
 .nonprofit_item {
@@ -206,6 +209,8 @@ a:hover{
   transition: 
       transform 750ms cubic-bezier(.5, 0, .5, 1),
       opacity 250ms linear;
+      margin-top: 50px;
+      margin-bottom: 50px;
 }
 
 .nonprofit_item:focus {
@@ -264,4 +269,12 @@ a:hover{
   .bd + .bds {
       margin-left: 2em;
   }
+}
+
+/*paragraph margins for school page- in combination with nonprofit css*/
+
+ p.school_text{
+  margin-top: 10px;
+  margin-bottom: 25px;
+
 }

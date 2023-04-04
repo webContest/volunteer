@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="./css/Style.css" />
+    <title>Volunteering </title>
+  </head>
+<body>
+    <!-- Header Section Start here -->
+    <header>
+      <div class="navbar">
+      <div class="logo">
+          <a href="index.html">
+            <img id="logo-img" src="./img/greenspeak-high-resolution-color-logo.jpeg" alt="logo">
+            Volunteer Opportunities</a>
+        </div>
+        <ul class="links">
+          <li><a href="home.html" class="home" target="_parent">Home</a></li>
+          <li><a href="events.html" class="events"target="_parent">Events</a></li>
+          <li><a href="getinvloved.html" class="getinvloved" target="_parent">Get Invloved</a></li>
+          <li><a href="aboutus.html" target="_parent">About Us</a></li>
+          <li><a href="Contactus.html" class="contact" target="_parent">Contact Us</a></li>
+        </ul>
+           <a href="#" class="action_btn">Get Started</a>
+           <div class="toggle_btn">
+             <i class="fa-solid fa-bars"></i>  
+            </div>
+       </div>  
+       <div class="dropdown_menu">
+          <i><a href="home.html" class="home" target="_parent">Home</a></i>
+          <i><a href="events.html" class="events"target="_parent">Events</a></i>
+          <i><a href="getinvloved.html" class="getinvloved" target="_parent">Get Invloved</a></i>
+          <i><a href="aboutus.html" target="_parent">About Us</a></i>
+          <i><a href="Contactus.html" class="contact" target="_parent">Contact Us</a></i>
+          <i><a href="#" class="action_btn">Get Started</a></i>
+       </div>  <!--  nav bar ends Here -->
+    </header>
+    <main>   <!--grid of links for school programs, used CSS for nonprofit page -->     
+        <section class="wesupport" id="support">
+            <h2 class="section__title section__title--support">Support GreenSpeak In Your School</h2>
+        <p class="section__subtitle section__subtitle--work">The following organizations and companies will bring exciting programs to your school! </p>
+        
+        <div class="nonprofit">
+                <!-- school business 01 -->
+                <a href="http://www.rentthechicken.com/p/school-partnerships.html" class="nonprofit_item">
+                <img src="img\RTClogoresizeda.png" alt="" height="auto" width="200" class="nonprofit_logo">
+                <p class="school_text">How would your students like to raise chickens? With Rent The Chicken you can have your very own chicken coup with egg laying chickens!</p>
+            </a>
+        
+        
+                <!-- school business 02 -->
+                <a href="https://www.agfoundation.org/projects" class="nonprofit_item">
+                <img src="img\agfound-logo-top.png" alt="" height="auto" width="auto" class="nonprofit_logo">
+            </a>
+        
+                <!-- school business 03 -->
+                <a href="https://epd.georgia.gov/outreach/outreach-educational-programs/student-and-teacher-resources" class="nonprofit_item">
+                <img src="img\ga-logo--gold.svg" alt="" height="auto" width="250" class="nonprofit_logo">
+                <p class="school_text">You will find Student and Teacher resources from the Enviromental Protection Division</p>
+            </a>
+
+                <!-- school business 04 -->
+                <a href="https://www.buddhabeeapiary.com/beehive-rental" class="nonprofit_item">
+                <img src="img\Buddha+Bee+Logo+Final.png" alt="" height="auto" width="275" class="nonprofit_logo">
+                <p class="school_text">Bring your very own bee hive to your school. Budda Bee will help maintain the hive and you can help add to the honey bee population. Great experience for your students to see the delicate balance of a hive. </p>
+            </a> 
+
+                <!-- school business 05 -->
+                <a href="https://centerforgreenschools.org/green-schools" class="nonprofit_item">
+                <img src="img\cfgs-logo.png" alt="" height="auto" width="300" class="nonprofit_logo">
+                <p class="school_text">Helping you to create sustainable, healthy, resilient, and equitable learning environments. Let Center for Green Schools help you create green projects for waste. </p>
+            </a>
+
+                <!-- school business 06 -->
+                <a href="https://www.oerproject.com/Climate-Project-Extension?WT.mc_id=20220815000000_Reg_CC-SEM-S3Mg-S3mGn&WT.tsrc=CCSEM&gclid=Cj0KCQjwla-hBhD7ARIsAM9tQKtYMFDPGaCDINsFwPSx3qSFnPY0JVWD_eLa55EUnDaAuR__0e_viNUaAvm8EALw_wcB" class="nonprofit_item">
+                <img src="img\OER-logo.svg" alt="" height="auto" width="auto" class="nonprofit_logo">
+                <p class="school_text">This is a completely free, comprehensive, classroom-ready three-week course. It inspires students to raise awareness and develop and take civic action. It’s specifically designed to fit into an AP or social studies curriculum post-exams.</p>
+            </a>
+       
+          </div>
+        </section>
+    </main>
+    <footer>
+        <div class="social">
+            
+        </div>
+    </footer>
+        <script>
+                const toggleBtn = document.querySelector('.toggle_btn')
+                const toggleBtnIcon= document.querySelector('.toggle_btn i')
+                const dropDownMenu = document.querySelector('.dropdown_menu')
+                toggleBtn.onclick = function(){
+                dropDownMenu.classList.toggle('open')
+                const isOpen = dropDownMenu.classList.contains('open')
+                toggleBtnIcon.classList = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+                }
+                
+        </script>
+    </body>
+ </html>
+          
