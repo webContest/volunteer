@@ -488,6 +488,7 @@ h6, p {
   list-style-type: decimal;
   list-style-position: inside;
   margin-left: 15px;
+  margin-right: 15px;
   margin-bottom: 10px;
 }
 
