@@ -192,29 +192,25 @@ a:hover{
     }
     
 .wesupport {
-  background-color: var(--clr-dark);
-	color: var(--clr-light);
-	text-align: center;
+ 	text-align: center;
   margin-top: 50px;
   padding-top: 25px;
 
 }
 .section__subtitle--support {
-	color: var(--clr-accent);
 	font-weight: var(--fw-bold);
 	margin-bottom: 2em;
 }
 
 .nonprofit {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   padding: 25px;
   
 }
 
 .nonprofit_item {
-  background: var(--clr-accent);
   overflow: hidden;
 }
 
