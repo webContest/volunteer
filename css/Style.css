@@ -176,6 +176,7 @@ a:hover{
 	text-align: center;
 	padding: 2.5em 0;
 	font-size: var(--fs-h3);
+  position: sticky;
 	
 }
 
@@ -239,13 +240,16 @@ a:hover{
   background-image: url();
   background-size: cover;
   /* background-blend-mode: multiply; */
-  color: var(--clr-light);
   text-align: center;
+  margin-top: 50px;
 }
 
 .section__title--bds {
   color: var(--clr-accent);
+  background-color: var(--clr-dark);
   position: relative;
+  text-align: center;
+  padding-top: 10px;
 }
 
 .section__title--bds::after {
@@ -259,12 +263,14 @@ a:hover{
 }
 
 .bds {
-  margin-bottom: 4em;
+  height: auto;
 }
 
 .bd {
   max-width: 500px;
-  margin: 0 auto;
+  margin: 25px 5px;
+  
+  
 }
 
 @media (min-width: 800px) {
@@ -285,8 +291,14 @@ a:hover{
  p.school_text{
   margin-top: 10px;
   margin-bottom: 25px;
+  text-align: center;
+ }
 
-}
+ img.oerlogo {
+  background-color: var(--clr-dark);
+
+ }
+
 
 /*at work page */
 
