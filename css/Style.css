@@ -591,4 +591,26 @@ p.sponsor{
 
 }
 
+/*Shore Sweep Page*/
 
+.box {
+  margin-top: 65px;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.box__item {
+  position: relative;
+  border:  1px solid #ffffff;
+  background: #000;
+  
+}
+.box__item::before {
+  display: block;
+  content: '';
+  padding-top: 100%;
+}
+.box__item:nth-child(7n+1) {
+  grid-column: 2 span;
+  grid-row: 2 span;
+}
