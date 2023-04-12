@@ -614,3 +614,17 @@ p.sponsor{
   grid-column: 2 span;
   grid-row: 2 span;
 }
+
+/*FAQ page*/
+
+h1.faqtitle {
+  margin-left: 25px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  
+}
+
+p.qa, p.answer {
+  margin-top: 10px;
+  margin-left: 25px;
+}
