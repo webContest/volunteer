@@ -1,87 +1,64 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" type="text/css" href="css\Style.css" />
-    <title>Volunteering </title>
+    <link rel="stylesheet" type="text/css" href="./css/navbar.css" />
+    <link rel="stylesheet" type="text/css" href="./css/Style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" defer />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <script src="./js/script.js" defer></script>
+    <script src="./js/includeHTML.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <script src="https://smtpjs.com/v3/smtp.js" defer></script>
+    <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js" defer>
+    </script>
+    <script type="text/javascript">
+(function(){
+emailjs.init("xQtE0HZHKCelVw76u");
+})();
+</script>
+    <title>New Page</title>
   </head>
-<body>
-    <!-- Header Section Start here -->
-    <header>
-      <div class="navbar">
-      <div class="logo">
-          <a href="index.html">
-            <img id="logo-img" src="./img/greenspeak-high-resolution-color-logo.jpeg" alt="logo">
-            Volunteer Opportunities</a>
-        </div>
-        <ul class="links">
-          <li><a href="home.html" class="home" target="_parent">Home</a></li>
-          <li><a href="events.html" class="events"target="_parent">Events</a></li>
-          <li><a href="getinvolved.html" class="getinvolved" target="_parent">Get Involved</a></li>
-          <li><a href="aboutus.html" target="_parent">About Us</a></li>
-          <li><a href="Contactus.html" class="contact" target="_parent">Contact Us</a></li>
-        </ul>
-           <a href="#" class="action_btn">Get Started</a>
-           <div class="toggle_btn">
-             <i class="fa-solid fa-bars"></i>  
-            </div>
-       </div>  
-       <div class="dropdown_menu">
-          <i><a href="home.html" class="home" target="_parent">Home</a></i>
-          <i><a href="events.html" class="events"target="_parent">Events</a></i>
-          <i><a href="getinvolved.html" class="getinvolved" target="_parent">Get Involved</a></i>
-          <i><a href="aboutus.html" target="_parent">About Us</a></i>
-          <i><a href="Contactus.html" class="contact" target="_parent">Contact Us</a></i>
-          <i><a href="#" class="action_btn">Get Started</a></i>
-       </div>  <!--  nav bar ends Here -->
-    </header>
-    <main>
-        <h1 class="faqtitle">Frequently Asked Questions</h1>
-        <p class="qa"><strong>What is GreenSpeak Georgia?</strong></p>
-        <p class="answer">GreenSpeak Georgia connects people to trusted nonprofit organizations dedicated to conserving and protecting our air, land and water. GreenSpeak Georgia raises funds primarily through workplace-giving partnerships with more than 50 employers that help support more than 70 environmental and conservation organizations. Approximately 30 of these organizations are based in Georgia, the others are national nonprofit partners – some of which have offices or have field representatives in Georgia.</p>
-        <p class="qa"><strong>What is a workplace-giving campaign?</strong></p>
-        <p class="answer">Workplace giving campaigns are payroll donation drives organized by companies to generate employee support for community issues and organizations. Employees can also give by one-time check or recurring credit card donations. Campaigns are usually run in the fall when employees make their payroll pledges for the upcoming calendar year.</p>
-        <p class="qa"><strong>How are employee donations shared among GreenSpeak Georgia nonprofit partners?</strong></p>
-        <p class="answer">Employees have the unique option of making one gift (to be shared among all nonprofit partners) or designating a pledge to one or more organizations of their choice. Undesignated contributions are shared among Georgia organizations (60 percent) and national organizations (40 percent). Donors may also designate their gifts to one or more organizations of their choice.</p>
-        <p class="qa"><strong>How often do nonprofit partners receive campaign pledge donations? </strong></p>
-        <p class="answer">Donations are distributed quarterly. GreenSpeak Georgia does not take a percentage from these donations. GreenSpeak Georgia partners pay annual dues, based on a budgeted amount annually approved by the Board of Directors. GreenSpeak Georgia’s administrative overhead is approximately 10%.</p>
-        <p class="qa"><strong>How else can a company become a partner?</strong></p>
-        <p class="answer">GreenSpeak Georgia provides an easy way to stay involved throughout the year through the corporate sustainer program that provides opportunities for learning, volunteering and company promotion through annual Earth Day business events. Make Earth Day Every Day by signing up as a Corporate Sustainer!</p>
-        <p class="qa"><strong>Who does GreenSpeak Georgia support? ?</strong></p>
-        <p class="answer">GreenSpeak Georgia funds more than 60 trusted nonprofit organizations working locally, nationally and internationally on air, land and water issues that affect our health and well-being and the sustainability of our planet.</p>
-        <p class="qa"><strong>Why give to GreenSpeak Georgia? ?</strong></p>
-        <p class="answer">GreenSpeak Georgia was founded by environmental organizations in 1992 to expand choice in workplace-giving programs. When you donate through your paycheck, a small contribution becomes a significant tax-deductible contribution at the end of the year. By donating through your workplace, you also reduce administrative overhead for the individual nonprofits we help support, eliminate extensive mailings and emails, and you can choose to be acknowledged or remain anonymous. GreenSpeak Georgia provides a strong network for the individual organizations we help support to work collectively towards improving our environment.</p>
-        <p class="qa"><strong>What environmental organizations participate?</strong></p>
-        <p class="answer">GreenSpeak Georgia’s nonprofit partners are annually reviewed to ensure that they are operating efficiently and actively engaged in conserving and protecting our air, land and water. Every three years, potential new nonprofit partners may apply, but must meet strict criteria before they are considered for partnership with GreenSpeak Georgia. Requirements include 501(c) (3) status for at least three years, an annual audit, 990, mission focused on environmental work, a non-discrimination policy, and an administrative overhead of 25% or under, along with a completed application indicating their annual commitment to actively participate in the work of GreenSpeak Georgia.</p>
-        <p class="qa"><strong>How do I start an GreenSpeak workplace-giving campaign?</strong></p>
-        <p class="answer">GreenSpeak Georgia staff will work with representatives from your company to create a first-time campaign or add environmental choice to an existing campaign. GreenSpeak Georgia can provide tools and resources such as a campaign toolkit, pledge forms, an online pledge platform through Give@theOffice and brochures and door prizes for presentations at staff meetings or other functions.</p>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-    </main>
-    <footer>
-        <div class="footer">
-          <span>&copy</span>&nbsp;2023 GreenSpeak Georiga. All Rights Reserved
-         </div>
-      </footer>
-          <script>
-                  const toggleBtn = document.querySelector('.toggle_btn')
-                  const toggleBtnIcon= document.querySelector('.toggle_btn i')
-                  const dropDownMenu = document.querySelector('.dropdown_menu')
-                  toggleBtn.onclick = function(){
-                  dropDownMenu.classList.toggle('open')
-                  const isOpen = dropDownMenu.classList.contains('open')
-                  toggleBtnIcon.classList = isOpen
-                  ? 'fa-solid fa-xmark'
-                  : 'fa-solid fa-bars'
-                  }
-                  
-          </script>
-      </body>
-   </html>
+  <body>
+    <div w3-include-html="./navbar.html"></div>
+  <script defer>
+    includeHTML();
+    </script>
+               <main>
+                <h1 class="faqtitle">Frequently Asked Questions</h1>
+                <p class="qa"><strong>What is GreenSpeak Georgia?</strong></p>
+                <p class="answer">GreenSpeak Georgia connects people to trusted nonprofit organizations dedicated to conserving and protecting our air, land and water. GreenSpeak Georgia raises funds primarily through workplace-giving partnerships with more than 50 employers that help support more than 70 environmental and conservation organizations. Approximately 30 of these organizations are based in Georgia, the others are national nonprofit partners – some of which have offices or have field representatives in Georgia.</p>
+                <p class="qa"><strong>What is a workplace-giving campaign?</strong></p>
+                <p class="answer">Workplace giving campaigns are payroll donation drives organized by companies to generate employee support for community issues and organizations. Employees can also give by one-time check or recurring credit card donations. Campaigns are usually run in the fall when employees make their payroll pledges for the upcoming calendar year.</p>
+                <p class="qa"><strong>How are employee donations shared among GreenSpeak Georgia nonprofit partners?</strong></p>
+                <p class="answer">Employees have the unique option of making one gift (to be shared among all nonprofit partners) or designating a pledge to one or more organizations of their choice. Undesignated contributions are shared among Georgia organizations (60 percent) and national organizations (40 percent). Donors may also designate their gifts to one or more organizations of their choice.</p>
+                <p class="qa"><strong>How often do nonprofit partners receive campaign pledge donations? </strong></p>
+                <p class="answer">Donations are distributed quarterly. GreenSpeak Georgia does not take a percentage from these donations. GreenSpeak Georgia partners pay annual dues, based on a budgeted amount annually approved by the Board of Directors. GreenSpeak Georgia’s administrative overhead is approximately 10%.</p>
+                <p class="qa"><strong>How else can a company become a partner?</strong></p>
+                <p class="answer">GreenSpeak Georgia provides an easy way to stay involved throughout the year through the corporate sustainer program that provides opportunities for learning, volunteering and company promotion through annual Earth Day business events. Make Earth Day Every Day by signing up as a Corporate Sustainer!</p>
+                <p class="qa"><strong>Who does GreenSpeak Georgia support? ?</strong></p>
+                <p class="answer">GreenSpeak Georgia funds more than 60 trusted nonprofit organizations working locally, nationally and internationally on air, land and water issues that affect our health and well-being and the sustainability of our planet.</p>
+                <p class="qa"><strong>Why give to GreenSpeak Georgia? ?</strong></p>
+                <p class="answer">GreenSpeak Georgia was founded by environmental organizations in 1992 to expand choice in workplace-giving programs. When you donate through your paycheck, a small contribution becomes a significant tax-deductible contribution at the end of the year. By donating through your workplace, you also reduce administrative overhead for the individual nonprofits we help support, eliminate extensive mailings and emails, and you can choose to be acknowledged or remain anonymous. GreenSpeak Georgia provides a strong network for the individual organizations we help support to work collectively towards improving our environment.</p>
+                <p class="qa"><strong>What environmental organizations participate?</strong></p>
+                <p class="answer">GreenSpeak Georgia’s nonprofit partners are annually reviewed to ensure that they are operating efficiently and actively engaged in conserving and protecting our air, land and water. Every three years, potential new nonprofit partners may apply, but must meet strict criteria before they are considered for partnership with GreenSpeak Georgia. Requirements include 501(c) (3) status for at least three years, an annual audit, 990, mission focused on environmental work, a non-discrimination policy, and an administrative overhead of 25% or under, along with a completed application indicating their annual commitment to actively participate in the work of GreenSpeak Georgia.</p>
+                <p class="qa"><strong>How do I start an GreenSpeak workplace-giving campaign?</strong></p>
+                <p class="answer">GreenSpeak Georgia staff will work with representatives from your company to create a first-time campaign or add environmental choice to an existing campaign. GreenSpeak Georgia can provide tools and resources such as a campaign toolkit, pledge forms, an online pledge platform through Give@theOffice and brochures and door prizes for presentations at staff meetings or other functions.</p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </main>
             
-  
+      <div class="footer">
+        <span>&copy</span>&nbsp;2023 GreenSpeak Georiga. All Rights Reserved
+       </div>
+          </footer>
+   </body>
+</html>

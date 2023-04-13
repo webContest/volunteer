@@ -5,181 +5,161 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="./css/navbar.css" />
     <link rel="stylesheet" type="text/css" href="./css/Style.css" />
-    <title>Volunteering </title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" defer />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <script src="./js/script.js" defer></script>
+    <script src="./js/includeHTML.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <script src="https://smtpjs.com/v3/smtp.js" defer></script>
+    <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js" defer>
+    </script>
+    <script type="text/javascript">
+(function(){
+emailjs.init("xQtE0HZHKCelVw76u");
+})();
+</script>
+    <title>New Page</title>
   </head>
-<body>
-    <!-- Header Section Start here -->
-    <header>
-      <div class="navbar">
-      <div class="logo">
-          <a href="index.html">
-            <img id="logo-img" src="./img/greenspeak-high-resolution-color-logo.jpeg" alt="logo">
-            Volunteer Opportunities</a>
-        </div>
-        <ul class="links">
-          <li><a href="home.html" class="home" target="_parent">Home</a></li>
-          <li><a href="events.html" class="events"target="_parent">Events</a></li>
-          <li><a href="getinvolved.html" class="getinvolved" target="_parent">Get Involved</a></li>
-          <li><a href="aboutus.html" target="_parent">About Us</a></li>
-          <li><a href="Contactus.html" class="contact" target="_parent">Contact Us</a></li>
-        </ul>
-           <a href="#" class="action_btn">Get Started</a>
-           <div class="toggle_btn">
-             <i class="fa-solid fa-bars"></i>  
-            </div>
-       </div>  
-       <div class="dropdown_menu">
-          <i><a href="home.html" class="home" target="_parent">Home</a></i>
-          <i><a href="events.html" class="events"target="_parent">Events</a></i>
-          <i><a href="getinvolved.html" class="getinvolved" target="_parent">Get Involved</a></i>
-          <i><a href="aboutus.html" target="_parent">About Us</a></i>
-          <i><a href="Contactus.html" class="contact" target="_parent">Contact Us</a></i>
-          <i><a href="#" class="action_btn">Get Started</a></i>
-       </div>  <!--  nav bar ends Here -->
-    </header>
-    <main>   <!--grid of links and logos for nonprofits -->     
-        <section class="wesupport" id="support">
-            <h2 class="section__title section__title--support">Who We Support</h2>
-        <p class="section__subtitle section__subtitle--support">Local Nonprofit Parnters</p>
-        
-        <div class="nonprofit">
-                <!-- nonprofit 01 -->
-                <a href="https://www.georgiaaudubon.org/" class="nonprofit_item">
-                <img src="img\georgia-audubon-header-logo.png" alt="Georgia Audobon Logo" height="auto" width="auto" class="nonprofit_logo">
-                <p>Conducts educational programming, community outreach, habitat restoration and other conservation-related activities, citizen science projects, and advocacy efforts that protect Georgia’s birds and their habitats.</p><br>
-                <p>4055 Roswell Road, Atlanta, GA 30342<br>
-                    (678) 973-2437<br>
-                    www.georgiaaudubonsociety.com</p>
-            </a>
-        
-        
-                <!-- nonprofit 02 -->
-                <a href="https://www.masmacon.org/" class="nonprofit_item">
-                <img src="img\Macon-Museum-of-Arts-and-Sciences-Logo.jpg" alt="Macon Museum of Arts and Science Logo" height="auto" width="auto" class="nonprofit_logo">
-                <p>An accredited multidisciplinary institution serving Georgia through high quality educational programming, in an 18-acre, full- dome planetarium, nature trails, mini zoo, and five changing galleries.</p><br>
-                <p>4182 Forsyth Road, Macon, GA 31210-4806<br>
-                    (478) 477-3232<br>
-                    www.masmacon.org</p>
-            </a>
-
-        
-                <!-- nonprofit 03 -->
-                <a href="http://www.oriannesociety.org/" class="nonprofit_item">
-                <img src="img\The-Orianne-Society-Logo.png" alt="Orianne Society Logo" height="auto" width="auto" class="nonprofit_logo">
-                <p>The Orianne Society is dedicated to the range-wide conservation of imperiled reptiles and amphibians and the habitats they need to persist.</p><br>
-                <p>11 Old Fruit Stand Ln, Tiger, Georgia<br>
-                    www.oriannesociety.org</p>
-            </a>
-
-            
-                <!-- nonprofit 04 -->
-                <a href="http://www.savannahriverkeeper.org/" class="nonprofit_item">
-                <img src="img\Savannah-Riverkeeper-Logo.jpg" alt="Savanah RiverKeeper Logo" height="175" width="auto" class="nonprofit_logo">
-                <p>Serves as the primary guardian of the Savannah River striving to respect, protect, and improve the entire river basin through education, advocacy, and action.</p><br>
-                <p>105 Riverfront Drive, 14908 Augusta, GA 30901<br>
-                    (706) 826-8991<br>
-                    www.savannahriverkeeper.org</p>
-            </a>    
-            
-            
-                <!-- nonprofit 05 -->
-                <a href="http://www.georgiaorganics.org/" class="nonprofit_item">
-                <img src="img\georgia-organics-150x150.jpg" alt="Georgia Organics Logo" height="auto" width="auto" class="nonprofit_logo">
-                <p>Increase the number of organic and sustainable farmers in Georgia, children participating in farm-to-school programs, and Georgians eating local, organic food.</p><br>
-                <p>200-A Ottley Drive, Atlanta, GA 30324<br>
-                    (678) 702-0400<br>
-                    www.georgiaorganics.org</p>
-            </a>
-        
-        
-                <!-- nonprofit 06 -->
-                <a href="http://www.garivers.org/" class="nonprofit_item">
-                <img src="img\georgia-river-network-150x150.png" alt="Georgia Rivers Network Logo" height="auto" width="auto" class="nonprofit_logo">
-                <p>As the voice of Georgia’s rivers, we help everyone enjoy, connect with and advocate for economically vital and clean, flowing rivers.</p><br>
-                <p>126 South Milledge Ave Suite E3, Athens, Georgia 30605<br>
-                    (706) 549-4508<br>
-                    www.garivers.org/</p>
-            </a>
-
-            
-                <!-- nonprofit 07 -->
-                <a href="http://www.cleanenergy.org/" class="nonprofit_item">
-                <img src="img\Southern-Alliance-for-Clean-Energy-Logo-300x54.png" alt="Alliance Clean Energy Logo " height="auto" width="auto" class="nonprofit_logo">
-                <p>Promotes responsible energy choices that create global warming solutions and ensure clean, safe, and healthy communities throughout the Southeast.</p><br>
-                <p>250 Arizona Avenue, Atlanta, GA 30307<br>
-                    (404) 373-5832<br>
-                    www.cleanenergy.org</p>
-            </a>
-
-        
-                <!-- nonprofit 08 -->
-                <a href="http://www.reynoldsnaturepreserve.org/" class="nonprofit_item">
-                <img src="img\Reynolds-Nature-Preserve-Logo-300x263.jpg" alt="Reynolds Nature Perserve Logo" height="125" width="" class="nonprofit_logo">
-                <p>A 146 acre nature preserve located in the heart of Clayton County in Morrow, GA.  The land, preserved in its native state, is a perfect example of rolling hills in the Piedmont region of Georgia.</p><br>
-                <p>5665 Reynolds Road, Morrow, GA 30260<br>
-                    (770) 603-4188<br>
-                    www.reynoldsnaturepreserve.org</p>
-            </a>    
-            
-        
-                <!-- nonprofit 09 -->
-                <a href="http://oxbow.columbusstate.edu/" class="nonprofit_item">
-                <img src="img\oxbow logo.png" alt="Oxbow Logo" height="auto" width="auto" class="nonprofit_logo">
-                <p>Providing diverse opportunities for Georgia citizens that support science proficency by connecting with nature, learning about environmental issues, and becoming life long learners.</p><br>
-                <p>3535 South Lumpkin Road, Columbus, GA 31903<br>
-                    (706) 687-4090<br>
-                    http://oxbow.columbusstate.edu/</p>
-            </a>
-        
-        
-                <!-- nonprofit 10 -->
-                <a href="http://friendsofgastateparks.org/" class="nonprofit_item">
-                <img src="img\friends-of-georgia-state-parks-and-historic-sites-300x218.png" alt="Friends Of Georgia State Parks Logo" height="100" width="125" class="nonprofit_logo">
-                <p>Friends supports Georgia’s state parks and historic sites financially and through volunteer programs and projects in our 50+ chapters located throughout the state.</p><br>
-                <p>781 Red Top Mountain Road, Cartersville, GA 30121<br>
-                    (770) 975-7533<br>
-                    friendsofgastateparks.org</p>
-            </a>
-
-              <!-- nonprofit 11 -->
-              <a href="http://www.elachee.org/" class="nonprofit_item">
-                <img src="img\elachee-nature-science-center.jpg" alt="Elachee Nature Science Center Logo" height="100" width="125" class="nonprofit_logo">
-                <p>Museum, hiking trails and animal exhibits in 1400 acre preserve in Gainesville. Teaching environmental education and stewardship for visitors and 35,000 students from 33 systems.</p><br>
-                <p>2125 Elachee Drive, Gainesville, GA 30504<br>
-                (770) 535-1976<br>
-                www.elachee.org</p>
-            </a>
-
-              <!-- nonprofit 12 -->
-              <a href="www.gwf.org" class="nonprofit_item">
-                <img src="img\georgia-wildlife-federation.png" alt="Georgia Wildlife Federation Logo" height="100" width="100" class="nonprofit_logo">
-                <p>All programs encourage the intelligent management of the life-sustaining resources of our state including water, forests, plants and its dependent wildlife.</p><br>
-                <p>11600 Hazelbrand Road, Covington, GA 30014<br>
-                    (770) 787-7887<br>
-                    www.gwf.org</p>
-            </a>
-        </div>
-        </section>
-    </main>
-    <footer>
-        <div class="footer">
-            <span>&copy</span>&nbsp;2023 GreenSpeak Georiga. All Rights Reserved
-           </div>
-    </footer>
-        <script>
-                const toggleBtn = document.querySelector('.toggle_btn')
-                const toggleBtnIcon= document.querySelector('.toggle_btn i')
-                const dropDownMenu = document.querySelector('.dropdown_menu')
-                toggleBtn.onclick = function(){
-                dropDownMenu.classList.toggle('open')
-                const isOpen = dropDownMenu.classList.contains('open')
-                toggleBtnIcon.classList = isOpen
-                ? 'fa-solid fa-xmark'
-                : 'fa-solid fa-bars'
-                }
+  <body>
+    <div w3-include-html="./navbar.html"></div>
+  <script defer>
+    includeHTML();
+    </script>
+              <main>   <!--grid of links and logos for nonprofits -->     
+                <section class="wesupport" id="support">
+                    <h2 class="section__title section__title--support">Who We Support</h2>
+                <p class="section__subtitle section__subtitle--support">Local Nonprofit Parnters</p>
                 
-        </script>
-    </body>
- </html>
-          
+                <div class="nonprofit">
+                        <!-- nonprofit 01 -->
+                        <a href="https://www.georgiaaudubon.org/" class="nonprofit_item">
+                        <img src="img\georgia-audubon-header-logo.png" alt="Georgia Audobon Logo" height="auto" width="auto" class="nonprofit_logo">
+                        <p>Conducts educational programming, community outreach, habitat restoration and other conservation-related activities, citizen science projects, and advocacy efforts that protect Georgia’s birds and their habitats.</p><br>
+                        <p>4055 Roswell Road, Atlanta, GA 30342<br>
+                            (678) 973-2437<br>
+                            www.georgiaaudubonsociety.com</p>
+                    </a>
+                
+                
+                        <!-- nonprofit 02 -->
+                        <a href="https://www.masmacon.org/" class="nonprofit_item">
+                        <img src="img\Macon-Museum-of-Arts-and-Sciences-Logo.jpg" alt="Macon Museum of Arts and Science Logo" height="auto" width="auto" class="nonprofit_logo">
+                        <p>An accredited multidisciplinary institution serving Georgia through high quality educational programming, in an 18-acre, full- dome planetarium, nature trails, mini zoo, and five changing galleries.</p><br>
+                        <p>4182 Forsyth Road, Macon, GA 31210-4806<br>
+                            (478) 477-3232<br>
+                            www.masmacon.org</p>
+                    </a>
+        
+                
+                        <!-- nonprofit 03 -->
+                        <a href="http://www.oriannesociety.org/" class="nonprofit_item">
+                        <img src="img\The-Orianne-Society-Logo.png" alt="Orianne Society Logo" height="auto" width="auto" class="nonprofit_logo">
+                        <p>The Orianne Society is dedicated to the range-wide conservation of imperiled reptiles and amphibians and the habitats they need to persist.</p><br>
+                        <p>11 Old Fruit Stand Ln, Tiger, Georgia<br>
+                            www.oriannesociety.org</p>
+                    </a>
+        
+                    
+                        <!-- nonprofit 04 -->
+                        <a href="http://www.savannahriverkeeper.org/" class="nonprofit_item">
+                        <img src="img\Savannah-Riverkeeper-Logo.jpg" alt="Savanah RiverKeeper Logo" height="175" width="auto" class="nonprofit_logo">
+                        <p>Serves as the primary guardian of the Savannah River striving to respect, protect, and improve the entire river basin through education, advocacy, and action.</p><br>
+                        <p>105 Riverfront Drive, 14908 Augusta, GA 30901<br>
+                            (706) 826-8991<br>
+                            www.savannahriverkeeper.org</p>
+                    </a>    
+                    
+                    
+                        <!-- nonprofit 05 -->
+                        <a href="http://www.georgiaorganics.org/" class="nonprofit_item">
+                        <img src="img\georgia-organics-150x150.jpg" alt="Georgia Organics Logo" height="auto" width="auto" class="nonprofit_logo">
+                        <p>Increase the number of organic and sustainable farmers in Georgia, children participating in farm-to-school programs, and Georgians eating local, organic food.</p><br>
+                        <p>200-A Ottley Drive, Atlanta, GA 30324<br>
+                            (678) 702-0400<br>
+                            www.georgiaorganics.org</p>
+                    </a>
+                
+                
+                        <!-- nonprofit 06 -->
+                        <a href="http://www.garivers.org/" class="nonprofit_item">
+                        <img src="img\georgia-river-network-150x150.png" alt="Georgia Rivers Network Logo" height="auto" width="auto" class="nonprofit_logo">
+                        <p>As the voice of Georgia’s rivers, we help everyone enjoy, connect with and advocate for economically vital and clean, flowing rivers.</p><br>
+                        <p>126 South Milledge Ave Suite E3, Athens, Georgia 30605<br>
+                            (706) 549-4508<br>
+                            www.garivers.org/</p>
+                    </a>
+        
+                    
+                        <!-- nonprofit 07 -->
+                        <a href="http://www.cleanenergy.org/" class="nonprofit_item">
+                        <img src="img\Southern-Alliance-for-Clean-Energy-Logo-300x54.png" alt="Alliance Clean Energy Logo " height="auto" width="auto" class="nonprofit_logo">
+                        <p>Promotes responsible energy choices that create global warming solutions and ensure clean, safe, and healthy communities throughout the Southeast.</p><br>
+                        <p>250 Arizona Avenue, Atlanta, GA 30307<br>
+                            (404) 373-5832<br>
+                            www.cleanenergy.org</p>
+                    </a>
+        
+                
+                        <!-- nonprofit 08 -->
+                        <a href="https://www.claytonparks.com/reynolds-nature-preserve/" class="nonprofit_item">
+                        <img src="img\Reynolds-Nature-Preserve-Logo-300x263.jpg" alt="Reynolds Nature Perserve Logo" height="125" width="" class="nonprofit_logo">
+                        <p>A 146 acre nature preserve located in the heart of Clayton County in Morrow, GA.  The land, preserved in its native state, is a perfect example of rolling hills in the Piedmont region of Georgia.</p><br>
+                        <p>5665 Reynolds Road, Morrow, GA 30260<br>
+                            (770) 603-4188<br>
+                            www.claytonparks.com/reynolds-nature-preserve/</p>
+                    </a>    
+                    
+                
+                        <!-- nonprofit 09 -->
+                        <a href="http://oxbow.columbusstate.edu/" class="nonprofit_item">
+                        <img src="img\oxbow logo.png" alt="Oxbow Logo" height="auto" width="auto" class="nonprofit_logo">
+                        <p>Providing diverse opportunities for Georgia citizens that support science proficency by connecting with nature, learning about environmental issues, and becoming life long learners.</p><br>
+                        <p>3535 South Lumpkin Road, Columbus, GA 31903<br>
+                            (706) 687-4090<br>
+                            http://oxbow.columbusstate.edu/</p>
+                    </a>
+                
+                
+                        <!-- nonprofit 10 -->
+                        <a href="http://friendsofgastateparks.org/" class="nonprofit_item">
+                        <img src="img\friends-of-georgia-state-parks-and-historic-sites-300x218.png" alt="Friends Of Georgia State Parks Logo" height="100" width="125" class="nonprofit_logo">
+                        <p>Friends supports Georgia’s state parks and historic sites financially and through volunteer programs and projects in our 50+ chapters located throughout the state.</p><br>
+                        <p>781 Red Top Mountain Road, Cartersville, GA 30121<br>
+                            (770) 975-7533<br>
+                            friendsofgastateparks.org</p>
+                    </a>
+        
+                      <!-- nonprofit 11 -->
+                      <a href="http://www.elachee.org/" class="nonprofit_item">
+                        <img src="img\elachee-nature-science-center.jpg" alt="Elachee Nature Science Center Logo" height="100" width="125" class="nonprofit_logo">
+                        <p>Museum, hiking trails and animal exhibits in 1400 acre preserve in Gainesville. Teaching environmental education and stewardship for visitors and 35,000 students from 33 systems.</p><br>
+                        <p>2125 Elachee Drive, Gainesville, GA 30504<br>
+                        (770) 535-1976<br>
+                        www.elachee.org</p>
+                    </a>
+        
+                      <!-- nonprofit 12 -->
+                      <a href="https://gwf.org/" class="nonprofit_item">
+                        <img src="img\georgia-wildlife-federation.png" alt="Georgia Wildlife Federation Logo" height="100" width="100" class="nonprofit_logo">
+                        <p>All programs encourage the intelligent management of the life-sustaining resources of our state including water, forests, plants and its dependent wildlife.</p><br>
+                        <p>11600 Hazelbrand Road, Covington, GA 30014<br>
+                            (770) 787-7887<br>
+                            www.gwf.org</p>
+                    </a>
+                    
+                </div>
+                <br>
+                <br>
+                </section>
+            </main>
+            
+      <div class="footer">
+        <span>&copy</span>&nbsp;2023 GreenSpeak Georiga. All Rights Reserved
+       </div>
+          </footer>
+   </body>
+</html>

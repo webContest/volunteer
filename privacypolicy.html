@@ -5,79 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="./css/navbar.css" />
     <link rel="stylesheet" type="text/css" href="./css/Style.css" />
-    <title>Volunteering </title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" defer />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <script src="./js/script.js" defer></script>
+    <script src="./js/includeHTML.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <script src="https://smtpjs.com/v3/smtp.js" defer></script>
+    <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js" defer>
+    </script>
+    <script type="text/javascript">
+(function(){
+emailjs.init("xQtE0HZHKCelVw76u");
+})();
+</script>
+    <title>New Page</title>
   </head>
   <body>
-    <!-- Header Section Start here -->
-    <header>
-      <div class="navbar">
-      <div class="logo">
-          <a href="index.html">
-            <img id="logo-img" src="./img/greenspeak-high-resolution-color-logo.jpeg" alt="logo">
-            Volunteer Opportunities</a>
-        </div>
-        <ul class="links">
-          <li><a href="home.html" class="home" target="_parent">Home</a></li>
-          <li><a href="events.html" class="events"target="_parent">Events</a></li>
-          <li><a href="getinvloved.html" class="getinvloved" target="_parent">Get Invloved</a></li>
-          <li><a href="aboutus.html" target="_parent">About Us</a></li>
-          <li><a href="Contactus.html" class="contact" target="_parent">Contact Us</a></li>
-        </ul>
-           <a href="#" class="action_btn">Get Started</a>
-           <div class="toggle_btn">
-             <i class="fa-solid fa-bars"></i>  
-            </div>
-       </div>  
-       <div class="dropdown_menu">
-          <i><a href="home.html" class="home" target="_parent">Home</a></i>
-          <i><a href="events.html" class="events"target="_parent">Events</a></i>
-          <i><a href="getinvloved.html" class="getinvloved" target="_parent">Get Invloved</a></i>
-          <i><a href="aboutus.html" target="_parent">About Us</a></i>
-          <i><a href="Contactus.html" class="contact" target="_parent">Contact Us</a></i>
-          <i><a href="#" class="action_btn">Get Started</a></i>
-       </div>  <!--  nav bar ends Here -->
-     </header>
-     <main>
-      <section id="hero">
-      <h1>Donor Privacy Policy</h1>
-      <p>GreenSpeak Georgia values and respects its donors’ right to privacy. It affirms that its fundraising practices protect against unauthorized use of its contributor lists, and permits no general telephone solicitation of the public.<br>
-
-        <br>GreenSpeak Georgia utilizes donors’ personal information such as names, mailing addresses and email addresses only for purposes of donor acknowledgement and/or when an individual voluntarily provides this information and opts to join our mailing list. GreenSpeak Georgia does not share donors’ personal or contact information with any third party organizations for purposes of solicitation.<br>
-        
-        <br>For purposes of individual donor acknowledgement, GreenSpeak Georgia releases donor names, contact information and donation amounts to those GreenSpeak Georgia participating organizations that are designated by our donors, and only with the written consent of our donors. GreenSpeak Georgia strives to ensure that all donors who request acknowledgment receive appropriate acknowledgment in an orderly, timely and effective manner from the managing federation (either an GreenSpeak affiliate or chapter, or the national office) and the recipient member charity (for designated gifts).<br>
-        
-        <br>Visitors to the GreenSpeak Georgia Web site remain anonymous. GreenSpeak Georgia does not require visitors to register or provide personal information to view the site. There are instances when site visitors are asked for additional information in order to provide requested services. For example, information will be requested when making an online donation to GreenSpeak so the gift may be properly processed and receipted. GreenSpeak Georgia’s online donors choose the personal information that GreenSpeak Georgia receives and can opt to remain anonymous. All credit card transactions are conducted over a secure server.<br>
-        We use a number of web analytics products to optimize our website, including Google Analytics. These tools do not require our site visitors to identify themselves, and they do not provide us any personally identifiable information about our visitors that is not supplied voluntarily. Our goal in using analytics is to understand what parts of our website visitors like and which parts need work. We encourage you to accept cookies when surfing our website so we can provide you useful information as effectively as possible.<br>
-        
-        <br>You can help GreenSpeak Georgia maintain the accuracy of your information by notifying us of any changes to your address, title, phone number or email address.<br>
-        
-        <br>Due to the rapidly evolving technologies on the Internet, we may occasionally update this policy. All revisions will be posted to this site. A revised Privacy Policy will apply only to data collected subsequent to its effective date.<br>
-        
-        <br><strong>Questions:</strong>
-        GreenSpeak Georgia welcomes comments and questions on this policy. We are dedicated to protecting your personal information, and will make every reasonable effort to keep that information secure. If you have any questions, info@greenspeak.org or call our office at 555-555-5555.<br>
-        
-        Last Revised: April 1, 2023</p>
-    </section>
-     </main>
-     <footer>
+    <div w3-include-html="./navbar.html"></div>
+  <script defer>
+    includeHTML();
+    </script>
+               <main>
+                <section id="hero">
+                <h1>Donor Privacy Policy</h1>
+                <p class="pp_list">GreenSpeak Georgia values and respects its donors’ right to privacy. It affirms that its fundraising practices protect against unauthorized use of its contributor lists, and permits no general telephone solicitation of the public.<br>
+          
+                  <br>GreenSpeak Georgia utilizes donors’ personal information such as names, mailing addresses and email addresses only for purposes of donor acknowledgement and/or when an individual voluntarily provides this information and opts to join our mailing list. GreenSpeak Georgia does not share donors’ personal or contact information with any third party organizations for purposes of solicitation.<br>
+                  
+                  <br>For purposes of individual donor acknowledgement, GreenSpeak Georgia releases donor names, contact information and donation amounts to those GreenSpeak Georgia participating organizations that are designated by our donors, and only with the written consent of our donors. GreenSpeak Georgia strives to ensure that all donors who request acknowledgment receive appropriate acknowledgment in an orderly, timely and effective manner from the managing federation (either an GreenSpeak affiliate or chapter, or the national office) and the recipient member charity (for designated gifts).<br>
+                  
+                  <br>Visitors to the GreenSpeak Georgia Web site remain anonymous. GreenSpeak Georgia does not require visitors to register or provide personal information to view the site. There are instances when site visitors are asked for additional information in order to provide requested services. For example, information will be requested when making an online donation to GreenSpeak so the gift may be properly processed and receipted. GreenSpeak Georgia’s online donors choose the personal information that GreenSpeak Georgia receives and can opt to remain anonymous. All credit card transactions are conducted over a secure server.<br>
+                  We use a number of web analytics products to optimize our website, including Google Analytics. These tools do not require our site visitors to identify themselves, and they do not provide us any personally identifiable information about our visitors that is not supplied voluntarily. Our goal in using analytics is to understand what parts of our website visitors like and which parts need work. We encourage you to accept cookies when surfing our website so we can provide you useful information as effectively as possible.<br>
+                  
+                  <br>You can help GreenSpeak Georgia maintain the accuracy of your information by notifying us of any changes to your address, title, phone number or email address.<br>
+                  
+                  <br>Due to the rapidly evolving technologies on the Internet, we may occasionally update this policy. All revisions will be posted to this site. A revised Privacy Policy will apply only to data collected subsequent to its effective date.<br>
+                  
+                  <br><strong>Questions:</strong>
+                  GreenSpeak Georgia welcomes comments and questions on this policy. We are dedicated to protecting your personal information, and will make every reasonable effort to keep that information secure. If you have any questions, info@greenspeak.org or call our office at 555-555-5555.<br>
+                  
+                  <br>Last Revised: April 1, 2023</p>
+              </section>
+               </main>
+            
       <div class="footer">
         <span>&copy</span>&nbsp;2023 GreenSpeak Georiga. All Rights Reserved
        </div>
-      </div>
-     </footer>
-     <script>
-      const toggleBtn = document.querySelector('.toggle_btn')
-      const toggleBtnIcon= document.querySelector('.toggle_btn i')
-      const dropDownMenu = document.querySelector('.dropdown_menu')
-      toggleBtn.onclick = function(){
-        dropDownMenu.classList.toggle('open')
-        const isOpen = dropDownMenu.classList.contains('open')
-        toggleBtnIcon.classList = isOpen
-        ? 'fa-solid fa-xmark'
-        : 'fa-solid fa-bars'
-      }
-      
-    </script>
-  </body>
+          </footer>
+   </body>
 </html>

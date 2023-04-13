@@ -5,72 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" type="text/css" href="css\Style.css" />
-    <title>Volunteering </title>
+    <link rel="stylesheet" type="text/css" href="./css/navbar.css" />
+    <link rel="stylesheet" type="text/css" href="./css/Style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" defer />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <script src="./js/script.js" defer></script>
+    <script src="./js/includeHTML.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <script src="https://smtpjs.com/v3/smtp.js" defer></script>
+    <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js" defer>
+    </script>
+    <script type="text/javascript">
+(function(){
+emailjs.init("xQtE0HZHKCelVw76u");
+})();
+</script>
+    <title>New Page</title>
   </head>
-<body>
-    <!-- Header Section Start here -->
-    <header>
-      <div class="navbar">
-      <div class="logo">
-          <a href="index.html">
-            <img id="logo-img" src="./img/greenspeak-high-resolution-color-logo.jpeg" alt="logo">
-            Volunteer Opportunities</a>
-        </div>
-        <ul class="links">
-          <li><a href="home.html" class="home" target="_parent">Home</a></li>
-          <li><a href="events.html" class="events"target="_parent">Events</a></li>
-          <li><a href="getinvolved.html" class="getinvolved" target="_parent">Get Involved</a></li>
-          <li><a href="aboutus.html" target="_parent">About Us</a></li>
-          <li><a href="Contactus.html" class="contact" target="_parent">Contact Us</a></li>
-        </ul>
-           <a href="#" class="action_btn">Get Started</a>
-           <div class="toggle_btn">
-             <i class="fa-solid fa-bars"></i>  
-            </div>
-       </div>  
-       <div class="dropdown_menu">
-          <i><a href="home.html" class="home" target="_parent">Home</a></i>
-          <i><a href="events.html" class="events"target="_parent">Events</a></i>
-          <i><a href="getinvolved.html" class="getinvolved" target="_parent">Get Involved</a></i>
-          <i><a href="aboutus.html" target="_parent">About Us</a></i>
-          <i><a href="Contactus.html" class="contact" target="_parent">Contact Us</a></i>
-          <i><a href="#" class="action_btn">Get Started</a></i>
-       </div>  <!--  nav bar ends Here -->
-    </header>
-    <div class="box">
-        <div class="box__item box1"><img class="box_image" src="img\Shore-Sweep-Totals-2021-800-x-800-px-750-x-750-px.jpg"></div>
-        <div class="box__item"><img src="#"></div>
-        <div class="box__item"></div>
-        <div class="box__item"></div>
-        <div class="box__item"></div>
-        <div class="box__item"></div>
-        <div class="box__item"></div>
-        <div class="box__item"></div>
-        <div class="box__item"></div>
-        <div class="box__item"></div>
-       
-              
-</div>
-    <footer>
-        <div class="footer">
-          <span>&copy</span>&nbsp;2023 GreenSpeak Georiga. All Rights Reserved
-         </div>
-      </footer>
-          <script>
-                  const toggleBtn = document.querySelector('.toggle_btn')
-                  const toggleBtnIcon= document.querySelector('.toggle_btn i')
-                  const dropDownMenu = document.querySelector('.dropdown_menu')
-                  toggleBtn.onclick = function(){
-                  dropDownMenu.classList.toggle('open')
-                  const isOpen = dropDownMenu.classList.contains('open')
-                  toggleBtnIcon.classList = isOpen
-                  ? 'fa-solid fa-xmark'
-                  : 'fa-solid fa-bars'
-                  }
-                  
-          </script>
-      </body>
-   </html>
+  <body>
+    <div w3-include-html="./navbar.html"></div>
+  <script defer>
+    includeHTML();
+    </script>
+              <main>
+                <div class="box">
+                    <div class="box__item box1"><img class="box_image" src="img\Shore-Sweep-Totals-2021-800-x-800-px-750-x-750-px.jpg"></div>
+                    <div class="box__item"><img src="#"></div>
+                    <div class="box__item"></div>
+                    <div class="box__item"></div>
+                    <div class="box__item"></div>
+                    <div class="box__item"></div>
+                    <div class="box__item"></div>
+                    <div class="box__item"></div>
+                    <div class="box__item"></div>
+                    <div class="box__item"></div>
+                </div>
+                        
+          
+          </main> 
             
-  
+      <div class="footer">
+        <span>&copy</span>&nbsp;2023 GreenSpeak Georiga. All Rights Reserved
+       </div>
+          </footer>
+   </body>
+</html>
