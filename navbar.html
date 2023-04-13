@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" type="text/css" href="./css/navbar.css" />
+  <title>Volunteering </title>
+</head>
+<body>
+  <header>
+    <div class="navbar">
+    <!-- <div class="logo">
+        <a href="index.html">
+          <img id="logo-img" src="./img/greenspeak-high-resolution-color-logo.jpeg" alt="logo Image">
+          Volunteer</a>
+      </div> -->
+      
+      <div class="logo">
+        <a href="./index.html"><img id="logo-img" src="img\greenspeak-high-resolution-color-logo.jpeg" alt="logo"></a>
+        <!-- <img id="logo-img" src="./img/logo2.jpeg" alt="logo"> -->
+    </div>
+  
+      <ul class="links">
+        <!-- <li><a href="home.html" class="home1" target="_parent">Home</a></li> -->
+        <li><div class="submenu ">
+          <button class="dropbtn">Home
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="submenu-content">
+            <a href="./NewPage.html" target="_parent">Who support</a>
+            <a href="./boardandstaff.html" target="_parent">Board and Staff</a>
+            <a href="#"target="_parent">Corporate Donors</a>
+            <a href="#" target="_parent">FAQS</a>
+            <a href="#" target="_parent">DonarPrivacy Policy</a>
+            <a href="#"target="_parent">Diversity Inclusion Statment</a>
+          </div>
+        </div> </li>
+        <!-- <li><a href="events.html" class="events"target="_parent">Events</a></li> -->
+        <li><div class="submenu">
+          <button class="dropbtn">Events
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="submenu-content">
+            <a href="./home.html" target="_parent">Earth Day 223</a>
+            <a href="#" target="_parent">Arbor Day 2023</a>
+            <a href="#"target="_parent">World Oceans Day 2023</a>
+            <a href="#" target="_parent">National Clean Beaches Week</a>   
+          </div>
+        </div> </li>
+        <!-- <li><a href="getinvolved.html" class="getinvolved" target="_parent">Get Involved</a></li> -->
+        <li><div class="submenu">
+            <button class="dropbtn">Get Involved
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="submenu-content">
+              <a href="./home.html" target="_parent">Volunteer</a>
+            <a href="./atwork.html" target="_parent">At work</a>
+            <a href="#"target="_parent">In Schools</a>
+            <a href="#" target="_parent">Become a Corporate Donor</a>
+            </div>
+          </div> </li>
+        
+        <!-- <li><a href="aboutus.html" target="_parent">About Us</a></li> -->
+        <div class="submenu">
+          <button class="dropbtn">About Us
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="submenu-content">
+            <a href="./home.html" target="_parent">Who support</a>
+            <a href="#" target="_parent">Board and Staff</a>
+            <a href="#" target="_parent">Corporate Donors</a>
+            <a href="#" target="_parent">FAQS</a>
+            <a href="#" target="_parent">Donar Privacy Policy</a>
+            <a href="#" target="_parent">Diversity Inclusion Statment</a>
+          </div>
+        </div> 
+        <li><div class="submenu">
+          <button class="dropbtn">Contact Us
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="submenu-content">
+            <a href="./home.html" target="_parent">Who support</a>
+            <a href="#" target="_parent">Board and Staff</a>
+            <a href="#"target="_parent">Corporate Donors</a>
+            <a href="./Contactus.html" target="_parent">FAQS</a>
+            <a href="#" target="_parent">DonarPrivacy Policy</a>
+            <a href="#"target="_parent">Diversity Inclusion Statment</a>
+          </div>
+        </div> </li>
+        <!-- <li><a href="Contactus.html" class="contact" target="_parent">Contact Us</a></li> -->
+      </ul>
+         <a href="./index.html" class="action_btn">Get Started</a>
+         <div class="toggle_btn">
+           <i class="fa-solid fa-bars"></i>  
+          </div>
+        </div>
+     </div>  
+     <div class="dropdown_menu">
+        <i><a href="home.html" class="home2" target="_parent">Home</a></i>
+        <i><a href="events.html" class="events"target="_parent">Events</a></i>
+        <i><a href="getinvolved.html" class="getinvolved" target="_parent">Get Involved</a></i>
+        <i><a href="aboutus.html" target="_parent">About Us</a></i>
+        <i><a href="Contactus.html" class="contact" target="_parent">Contact Us</a></i>
+        <i><a href="#" class="action_btn">Get Started</a></i>
+     </div>  <!--  nav bar ends Here -->
+   </header>
+   <script>
+    const toggleBtn = document.querySelector('.toggle_btn')
+    const toggleBtnIcon= document.querySelector('.toggle_btn i')
+    const dropDownMenu = document.querySelector('.dropdown_menu')
+    toggleBtn.onclick = function(){
+      dropDownMenu.classList.toggle('open')
+      const isOpen = dropDownMenu.classList.contains('open')
+      toggleBtnIcon.classList = isOpen
+      ? 'fa-solid fa-xmark'
+      : 'fa-solid fa-bars'
+    }
+    
+  </script>
+</body>
+</html>

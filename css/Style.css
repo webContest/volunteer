@@ -244,9 +244,11 @@ a:hover{
 .board_directors {
   background-image: url();
   background-size: cover;
+ 
   /* background-blend-mode: multiply; */
   text-align: center;
   margin-top: 50px;
+  
 }
 
 .section__title--bds {
@@ -255,6 +257,7 @@ a:hover{
   position: relative;
   text-align: center;
   padding-top: 10px;
+ 
 }
 
 .section__title--bds::after {
@@ -269,11 +272,15 @@ a:hover{
 
 .bds {
   height: auto;
+  
 }
 
 .bd {
   max-width: 500px;
   margin: 25px 5px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
   
   
 }
@@ -600,7 +607,7 @@ p.sponsor{
   grid-template-columns: repeat(4, 1fr);
 }
 .box__item {
-  position: relative;
+  position: fixed;
   border:  1px solid #ffffff;
   background: #000;
   
@@ -613,6 +620,14 @@ p.sponsor{
 .box__item:nth-child(7n+1) {
   grid-column: 2 span;
   grid-row: 2 span;
+}
+.box_image {
+  height: 60rem;
+}
+
+.box1 {
+  background-color: #e12b2b;
+  height: 60rem;
 }
 
 /*FAQ page*/
@@ -627,4 +642,15 @@ h1.faqtitle {
 p.qa, p.answer {
   margin-top: 10px;
   margin-left: 25px;
+}
+
+/*volunteer page - will use boardandstaff css */ 
+
+.volunteer_img {
+  display: block;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: auto;
 }
