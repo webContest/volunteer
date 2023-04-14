@@ -50,7 +50,7 @@ li{
   list-style: none;
 }
 .navbar .toggle_btn{
-  color: #e12b2b;
+  color: rgb(134, 169, 152);
   font-size: 1.5rem;
   cursor: pointer;
   display: none;
@@ -71,7 +71,7 @@ li{
     /* Getting Start button in the menu Style setting hover on*/
     .action_btn:hover{
       transform: scale(1.05);
-        color:rgb(184, 127, 34);
+        color:rgb(134, 169, 152);
     }
     .action_btn:active{
       transform: scale(0.95);
@@ -117,7 +117,7 @@ a{
 
 /*Main navbar links items hiber link  HoverStyling setting*/
 a:hover{
-  color: orange;
+  color:rgb(134, 169, 152);
 }
     /* Hero  Main Section start with Welcome*/
  section#hero{
@@ -617,7 +617,7 @@ p.sponsor{
   justify-content: center;
   align-items: center;
   margin-top: 60px;
-  color: red;
+  background-color: whitesmoke ;
 }
 
 .container_ss {
@@ -648,13 +648,24 @@ p.sponsor{
   height: 200px;
 }
 
-h1.ss_text
-h2.ss_text {
-
+.ss_text {
+  display: flex;
   justify-content: center;
   align-content: center;
   margin-top: 20px;
   
+}
+a.ss_text2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 20px;  
+  font-size: 25px;
+  font-weight: 900;
+
+}
+a.ss_text2:hover{
+  color:rgb(134, 169, 152);
 }
 
 /*FAQ page*/
